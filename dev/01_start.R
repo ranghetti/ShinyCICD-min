@@ -19,7 +19,7 @@ golem::fill_desc(
   pkg_description = "A minimal package for Shiny CI/CD pipelines.", # The Description of the package containing the App
   author_first_name = "Mirai", # Your First Name
   author_last_name = "Solutions", # Your Last Name
-  author_email = "info@mirai-solutions.com", # Your Email
+  author_email = "ggranga@gmail.com", # Your Email
   repo_url = NULL # The URL of the GitHub Repo (optional)
 )
 
