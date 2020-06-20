@@ -8,10 +8,17 @@
 \usage{
 mod_faithful_histogram_ui(id)
 
-mod_faithful_histogram_server(input, output, session)
+mod_faithful_histogram_server(
+  input,
+  output,
+  session,
+  variable = reactive(NULL)
+)
 }
 \arguments{
 \item{id, input, output, session}{Internal parameters for {shiny}.}
+
+\item{variable}{Reactive expression for the variable to be plotted}
 }
 \description{
 UI and server function for an example Shiny module.

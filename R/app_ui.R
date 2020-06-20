@@ -14,9 +14,10 @@ app_ui <- function(request) {
       # Application title
       titlePanel("Old Faithful Geyser Data"),
 
-      # Sidebar with a slider input for number of bins
+      # Sidebar with a slider input for number of  bins
       mainPanel(
-        mod_faithful_histogram_ui("hist")
+        mod_faithful_histogram_ui("hist-waiting"),
+        mod_faithful_histogram_ui("hist-eruptions")
       )
     )
   )
