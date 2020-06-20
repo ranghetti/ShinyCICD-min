@@ -17,6 +17,8 @@ mod_faithful_histogram_server(
 }
 \arguments{
 \item{id, input, output, session}{Internal parameters for {shiny}.}
+
+\item{variable}{Reactive expression for the variable to be plotted}
 }
 \description{
 UI and server function for an example Shiny module.
