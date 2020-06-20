@@ -2,6 +2,7 @@
 # ShinyCICD
 
 <!-- badges: start -->
+[![R build status](https://github.com/ranghetti/ShinyCICD-min/workflows/CI-CD/badge.svg)](https://github.com/ranghetti/ShinyCICD-min/actions)
 <!-- badges: end -->
 
 The goal of ShinyCICD is to provide a simple example of packaged Shiny app to showcase CI/CD pipelines.
